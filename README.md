@@ -9,6 +9,7 @@ This project is a simple RESTful API for managing video games. It allows users t
 
 **Installation**
 Clone the repository to your local machine:
+
 `git clone https://yourrepositoryurl.com/path/to/repo`
 
 Navigate to the project directory:
