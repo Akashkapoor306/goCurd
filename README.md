@@ -4,8 +4,8 @@ This project is a simple RESTful API for managing video games. It allows users t
 
 **Setup**
 **Requirements**
-*Go (version 1.14 or higher)
-*Gorilla Mux
+1. Go (version 1.14 or higher)
+2. Gorilla Mux
 
 **Installation**
 Clone the repository to your local machine:
