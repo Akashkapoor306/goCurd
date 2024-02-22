@@ -13,47 +13,51 @@ Clone the repository to your local machine:
 `git clone https://yourrepositoryurl.com/path/to/repo`
 
 Navigate to the project directory:
+
 `cd path/to/project`
 
 Install dependencies:
+
 `go get -u github.com/gorilla/mux`
 
 **Running the Server**
+
 To start the server on port 8000, run:
+
 `go run .`
 
 **API Endpoints**
 
 **Get All Games**
- *GET /games
- *Retrieves a list of all video games.
+ 1. GET /games
+ 2. Retrieves a list of all video games.
  
 **Get a Single Game**
- *GET /games/{id}
- *Retrieves details of a specific game by ID.
+ 1. GET /games/{id}
+ 2. Retrieves details of a specific game by ID.
  
 **Create a New Game**
-*POST /games
-*Adds a new game to the collection. The request body should contain the game details in JSON format.
+1. POST /games
+2. Adds a new game to the collection. The request body should contain the game details in JSON format.
 
 **Update an Existing Game**
-*PUT /games/{id}
-*Updates the details of an existing game. The request body should contain the updated game details in JSON format.
+1. PUT /games/{id}
+2. Updates the details of an existing game. The request body should contain the updated game details in JSON format.
 
 **Delete a Game**
-*DELETE /games/{id}
-*Removes a game from the collection by ID.
+1. DELETE /games/{id}
+2. Removes a game from the collection by ID.
 
 **Data Model
 Game**
-*ID: Unique identifier for the game.
-*Isbn: ISBN number of the game.
-*Title: Title of the game.
-*Developer: Object containing the first and last name of the game's developer.
+1. ID: Unique identifier for the game.
+2. Isbn: ISBN number of the game.
+3. Title: Title of the game.
+4. Developer: Object containing the first and last name of the game's developer.
 
 **Developer**
-*FirstName: First name of the developer.
-*LastName: Last name of the developer.
+1. FirstName: First name of the developer.
+2. LastName: Last name of the developer.
 
 
 
